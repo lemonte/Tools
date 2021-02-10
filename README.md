@@ -1,137 +1,137 @@
 # Tools
 ## Nesse repositório ficam componentes para facilitar o desenvolvimento
 
-### Função para ordenar lista de A -Z
+## Função para ordenar lista de A -Z
   
-### static ordenarAZ(lista, nomeCampo)
+## static ordenarAZ(lista, nomeCampo)
 
-#### ==> nomeCampo
-##### tipo string, 
-##### campo a ser ordenado
+### ==> nomeCampo
+#### tipo string, 
+#### campo a ser ordenado
 
-#### ==> lista
-##### tipo [array]
-##### lista a ser ordenada
+### ==> lista
+#### tipo [array]
+#### lista a ser ordenada
 
-#### ==> retorno 
-##### tipo [array]
-##### lista ordenada
+### ==> retorno 
+#### tipo [array]
+#### lista ordenada
 
-### Função para pesquisa em lista
+## Função para pesquisa em lista
 
-### static filterlist(lista, texto, filtros)
+## static filterlist(lista, texto, filtros)
 
-#### ==> texto
-##### tipo string, 
-##### valor da busca
+### ==> texto
+#### tipo string, 
+#### valor da busca
 
-#### ==> lista
-##### tipo [array]
-##### lista a ser buscada
+### ==> lista
+#### tipo [array]
+#### lista a ser buscada
 
-#### ==> filtros 
-##### tipo [array]
-##### hereditaridade do campo de busca 
+### ==> filtros 
+#### tipo [array]
+#### hereditaridade do campo de busca 
 
-#### ==> retorno 
-##### tipo [array]
-##### lista filtrado
-
-
-### Função para retirar acento de string
-
-### static retira_acentos(valor)
-
-#### ==> valor
-##### tipo string, 
-##### campo a ser tirado acento
-
-#### ==> retorno 
-##### tipo string
-##### valor sem acento
-
-### Lista com estados brasileiros e suas siglas
-
-### static estados_brasileiros()
-
-#### ==> retorno 
-##### tipo [array]
-##### lista de estados e siglas
-
-### Lista com tipo de conta bancaria e o código
-
-### static tipo_conta()
-
-#### ==> retorno 
-##### tipo [array]
-##### lista de tipo de conta e codigo
-
-### Lista com o nome dos bancos e seus códigos
-
-### static bancos_codigo()
-
-#### ==> retorno 
-##### tipo [array]
-##### lista de bancos e codigo
+### ==> retorno 
+#### tipo [array]
+#### lista filtrado
 
 
-### função para baixar arquivo
+## Função para retirar acento de string
 
-### static downloadFileString(stringFile, formato)
+## static retira_acentos(valor)
 
-#### ==> stringFile
-##### tipo string, 
-##### campo gerado o arquivo
+### ==> valor
+#### tipo string, 
+#### campo a ser tirado acento
 
-#### ==> formato
-##### tipo string, 
-##### formato a ser gerado
+### ==> retorno 
+#### tipo string
+#### valor sem acento
 
-#### ==> retorno 
-##### tipo arquivo
-##### sera iniciado o donwload do arquivo
+## Lista com estados brasileiros e suas siglas
 
-### função para verificar se o objeto é nulo 
+## static estados_brasileiros()
 
-### static isEmpty(obj)
+### ==> retorno 
+#### tipo [array]
+#### lista de estados e siglas
 
-#### ==> obj
-##### tipo [obj], 
-##### ojeto a ser verificado
+## Lista com tipo de conta bancaria e o código
 
-#### ==> retorno 
-##### tipo boolean
-##### ira retornar se é vazio ou nao 
+## static tipo_conta()
 
-### mascara telefone
+### ==> retorno 
+#### tipo [array]
+#### lista de tipo de conta e codigo
 
-### static mascara_telefone(tel)
+## Lista com o nome dos bancos e seus códigos
 
-#### ==> tel
-##### tipo string, 
-##### valor a receber a mascara
+## static bancos_codigo()
 
-#### ==> retorno 
-##### tipo string
-##### ira retornar o valor com mascara 
+### ==> retorno 
+#### tipo [array]
+#### lista de bancos e codigo
 
-### mascara CPF/CNPJ
 
-### static Mascara_cpfCnpj(str)
+## função para baixar arquivo
 
-#### ==> str
-##### tipo string, 
-##### valor a receber a mascara
+## static downloadFileString(stringFile, formato)
 
-#### ==> retorno 
-##### tipo string
-##### ira retornar o valor com mascara 
+### ==> stringFile
+#### tipo string, 
+#### campo gerado o arquivo
 
-### modalidade CFOP para transporte
+### ==> formato
+#### tipo string, 
+#### formato a ser gerado
 
-### static modalidade()
+### ==> retorno 
+#### tipo arquivo
+#### sera iniciado o donwload do arquivo
 
-#### ==> retorno 
-##### tipo [array]
-##### lista de modalidade CFOP e codigo
+## função para verificar se o objeto é nulo 
+
+## static isEmpty(obj)
+
+### ==> obj
+#### tipo [obj], 
+#### ojeto a ser verificado
+
+### ==> retorno 
+#### tipo boolean
+#### ira retornar se é vazio ou nao 
+
+## mascara telefone
+
+## static mascara_telefone(tel)
+
+### ==> tel
+#### tipo string, 
+#### valor a receber a mascara
+
+### ==> retorno 
+#### tipo string
+#### ira retornar o valor com mascara 
+
+## mascara CPF/CNPJ
+
+## static Mascara_cpfCnpj(str)
+
+### ==> str
+#### tipo string, 
+#### valor a receber a mascara
+
+### ==> retorno 
+#### tipo string
+#### ira retornar o valor com mascara 
+
+## modalidade CFOP para transporte
+
+## static modalidade()
+
+### ==> retorno 
+#### tipo [array]
+#### lista de modalidade CFOP e codigo
 
